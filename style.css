@@ -30,10 +30,24 @@ body {
     z-index: 100;
 }
 
-.logo {
+.logo-wrapper {
+    display: flex;         /* Kích hoạt flexbox để các phần tử nằm ngang */
+    align-items: center;   /* Căn giữa logo và chữ theo chiều dọc */
+    gap: 12px;             /* Tạo khoảng cách giữa logo và chữ */
+    cursor: pointer;
+}
+
+.nav-logo {
+    height: 45px;          /* Bạn có thể tăng giảm chiều cao logo tại đây */
+    width: auto;           /* Để chiều rộng tự động theo tỉ lệ */
+    object-fit: contain;
+}
+
+.logo-text {
     font-weight: bold;
-    color: var(--primary-red);
-    font-size: 1.5rem;
+    color: #d4af37; /* Đổi từ var(--primary-red) thành mã màu vàng kim này */
+    font-size: 1.4rem;
+    font-family: 'Playfair Display', serif;
 }
 
 .nav-links {
