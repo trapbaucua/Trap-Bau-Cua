@@ -127,7 +127,20 @@ body {
     padding: 80px 8%;
     text-align: center;
 }
-
+/* Màu xanh đậm cho: Gói trọn, Kết nối */
+.dark-blue {
+    color: #10045e; /* Màu Navy đậm sang trọng */
+    font-weight: bold;
+}
+.dark-yellow {
+    color: #fbc04c; /* Màu xanh dương sáng hơn */
+    font-weight: bold;
+}
+/* Màu xanh dương cho: Di sản, Tâm giao */
+.dark-red {
+    color: hsl(0, 87%, 30%); /* Màu xanh dương sáng hơn */
+    font-weight: bold;
+}
 .section-title {
     margin-bottom: 50px;
     font-family: 'Playfair Display', serif;
